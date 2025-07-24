@@ -1,5 +1,7 @@
 const connectDB = require('./databaseConnection');
+const { getGeminiAiResponse } = require('./aiClient');
 
 module.exports={
-    connectDB:connectDB
+    connectDB:connectDB,
+    getGeminiAiResponse:getGeminiAiResponse
 }
